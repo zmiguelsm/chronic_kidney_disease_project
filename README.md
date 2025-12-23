@@ -11,13 +11,13 @@ The goal of this project is to classify patients as CKD or non-CKD based on mult
 
 ## Models Implemented
 - **Logistic Regression**: interpretable linear model for baseline performance
-- **Random Forest**: non-linear model capturing complex feature interactions
+- **Random Forest**:  tuned `mtry` using OOB error and interpreted feature importance with Gini and accuracy decrease.
 - **XGBoost (with SMOTE)**: gradient boosting model optimized for imbalanced data
 
 
 ## Results (Test Set Highlights)
 - **Logistic Regression**: moderate performance, strong interpretability
-- **Random Forest**: improved non-linear capture, but some bias toward majority class. Tuned `mtry` using OOB error and interpreted feature importance with Gini and accuracy decrease.
+- **Random Forest**: improved non-linear capture, but some bias toward majority class.
 - **XGBoost + SMOTE**: best overall performance with highest ROC–AUC
 
 ## Tools & Packages
