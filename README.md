@@ -1,5 +1,4 @@
 # Chronic Kidney Disease Detection:
-
 This repo contains an end-to-end machine learning pipeline for diagnosing **Chronic Kidney Disease (CKD)** using clinical and demographic data.
 
 ## Project Overview
